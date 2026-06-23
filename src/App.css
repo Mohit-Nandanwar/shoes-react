@@ -1,0 +1,103 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.shoes-section {
+  width: 60%;
+}
+
+.shoe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.shoe-card {
+  background-color: #f2e1c2;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 180px;
+  
+
+}
+
+.shoe-card {
+  transition: all 0.3s ease; 
+}
+
+.shoe-card:hover {
+  transform: scale(1.1);
+}
+
+
+.shoe-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cart-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+   
+}
+
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  background-color: #f2e1c2;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Total{
+  color: black;
+}
