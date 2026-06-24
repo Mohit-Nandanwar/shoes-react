@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./App.css";
 import "./index.css";
 
+
+
 function App() {
   const shoesData = [
     { id: 1, name: "Nike Air Max", price: 5000, image: "https://www.bing.com/th/id/OIP.Gz8oFS574FwW4Ml7B30iAQHaIq?w=193&h=226&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" },
@@ -15,7 +17,6 @@ function App() {
 
   const [cart, setCart] = useState([]);
 
-  // Add to Cart
   const addToCart = (shoe) => {
     const existingItem = cart.find((item) => item.id === shoe.id);
     if (existingItem) {
@@ -29,7 +30,6 @@ function App() {
     }
   };
 
-  // Remove from Cart
   const removeFromCart = (id) => {
     setCart(
       cart
@@ -40,7 +40,6 @@ function App() {
     );
   };
 
-  // Total Calculation
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   return (
@@ -55,9 +54,7 @@ function App() {
         </ul>
       </nav>
 
-      {/* Main Layout */}
       <div className="main-content">
-        {/* Shoes Section */}
         <div className="shoes-section">
           <h2>Available Shoes</h2>
           <div className="shoe-grid">
@@ -72,7 +69,6 @@ function App() {
           </div>
         </div>
 
-        {/* Cart Section */}
         <div className="cart-section">
           <h2>Shopping Cart</h2>
           {cart.length === 0 ? (
