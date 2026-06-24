@@ -1,16 +1,28 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the set up of the resct and vite 
+that project make in react which use of core jaavascript in the code 
+In this code our task os to make a basic shoe website tat customer are interact with price and those item they will select that item are added to the cart and also give total of the shoes in Total of the cart..
 
-Currently, two official plugins are available:
+# 👟 React Shoe Store
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A simple React project that displays a list of shoes and allows users to add/remove items from a shopping cart.  
+This project is beginner‑friendly and helps understand **React basics** like `useState`, `map`, and `reduce`.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How to Run This Project
 
-## Expanding the ESLint configuration
+### 1️⃣ Prerequisites
+Make sure you have installed:
+- [Node.js](https://nodejs.org/) (Recommended version: 18+)
+- npm (comes with Node.js)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Check versions:
+```bash
+node -v
+npm -v
+
+### command
+ npm run dev 
+ 
